@@ -50,11 +50,11 @@
                 <thead>
                   <tr>
                     <th>ID</th>
-                    <th>Ảnh admin</th>
+                    <th>Img admin</th>
                     <th>Username</th>
                     <th>Email</th>
-                    <th>Quyền</th>
-                    <th>Ngày tạo</th>
+                    <th>Role</th>
+                    <th>Date create</th>
                     <th>#</th>
                   </tr>
                 </thead>
@@ -70,10 +70,10 @@
                     <td>{{$ad -> created_at}}</td>
                     <td>
                       @if($ad->role == 1)
-                      <span class="btn-sm btn-primary"> Quản trị viên</span>
+                      <span class="btn-sm btn-primary"> ADMIN</span>
                       @else
-                      <a href="{{ Route('edit-admin',$ad) }}" class="btn btn-primary btn-xs">Sửa</a>
-                      <a href="{{ Route('deletead',$ad) }}" class="btn btn-danger btn-xs" onclick="return confirm('Xác nhận xoá ?')">Xóa</a>
+                      <a href="{{ Route('edit-admin',$ad) }}" class="btn btn-primary btn-xs">Edit</a>
+                      <a href="{{ Route('deletead',$ad) }}" class="btn btn-danger btn-xs" onclick="return confirm('Xác nhận xoá ?')">Delete</a>
                       @endif
                     </td>
                   </tr>

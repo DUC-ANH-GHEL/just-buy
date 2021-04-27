@@ -102,7 +102,7 @@
             <a href="{{route('list-about')}}" class="nav-link">
               <i class="nav-icon fas fa-shopping-cart"></i>
               <p>
-                Trang giới thiệu
+                Introduction page
                 <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
@@ -113,7 +113,7 @@
             <a href="{{route('list-service')}}" class="nav-link">
               <i class="nav-icon fas fa-shopping-cart"></i>
               <p>
-                Trang dịch vụ
+                Service page
                 <!-- <span class="right badge badge-danger">New</span> -->
               </p>
             </a>
@@ -133,13 +133,13 @@
               <li class="nav-item">
                 <a href="{{route('add-admin')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Thêm admin</p>
+                  <p>Add admin</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{{route('list-admin')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Danh sách admin</p>
+                  <p>List admin</p>
                 </a>
               </li>
             </ul>
@@ -159,7 +159,7 @@
               <li class="nav-item">
                 <a href="{{route('list-config')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Danh sách config</p>
+                  <p>List config</p>
                 </a>
               </li>
             </ul>
