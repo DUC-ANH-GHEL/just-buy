@@ -19,10 +19,10 @@
             <!-- <h1>DataTables</h1> -->
             <section class="content-header">
              <h5>
-              Danh sách người quản trị
+              List Admin
             </h5>
           </section>
-            <a href="{{route('add-admin')}}">Thêm admin</a>
+            <a href="{{route('add-admin')}}">Add admin</a>
 
           </div>
           <div class="col-sm-6">
